@@ -1,14 +1,16 @@
 {
   "keyboard_shortcut": "", 
-  "name": "php", 
+  "name": "case", 
   "value": [
-    "<?php [[%tabstop:]] ?>!@#_currentPos!@#_anchor"
+    "<?php case '[[%tabstop:]]': ?>", 
+    "\t[[%tabstop:]]", 
+    "<?php break; ?>!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
+  "indent_relative": "true", 
   "icon": "koicon://ko-svg/chrome/icomoon/skin/code.svg", 
   "type": "snippet", 
-  "indent_relative": "true", 
+  "treat_as_ejs": "false", 
   "auto_abbreviation": "false"
 }

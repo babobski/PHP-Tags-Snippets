@@ -6,8 +6,9 @@
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
+  "treat_as_ejs": "false", 
+  "icon": "koicon://ko-svg/chrome/icomoon/skin/code.svg", 
   "type": "snippet", 
   "indent_relative": "true", 
-  "auto_abbreviation": "true"
+  "auto_abbreviation": "false"
 }

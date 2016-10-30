@@ -1,12 +1,10 @@
 {
   "keyboard_shortcut": "", 
-  "name": "foreach_short", 
+  "name": "print_short", 
   "value": [
-    "<? foreach([[%tabstop:$pages]] as [[%tabstop:$page]]): ?>", 
-    "\t[[%tabstop:]]", 
-    "<? endforeach; ?>[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "<?= '<pre>' . print_r(!@#_currentPos!@#_anchor, true) . '</pre>'; ?>"
   ], 
-  "set_selection": "false", 
+  "set_selection": "true", 
   "version": "1.0.12", 
   "indent_relative": "true", 
   "icon": "koicon://ko-svg/chrome/icomoon/skin/code.svg", 

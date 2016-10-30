@@ -1,8 +1,12 @@
 {
   "keyboard_shortcut": "", 
-  "name": "php", 
+  "name": "switch", 
   "value": [
-    "<?php [[%tabstop:]] ?>!@#_currentPos!@#_anchor"
+    "<?php switch([[%tabstop:$value]]):", 
+    "\tcase '[[%tabstop:]]': ?>", 
+    "\t\t[[%tabstop:]]", 
+    "\t<?php break; ?>", 
+    "<?php endswitch; ?>!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

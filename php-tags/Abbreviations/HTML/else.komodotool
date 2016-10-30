@@ -2,11 +2,12 @@
   "keyboard_shortcut": "", 
   "name": "else", 
   "value": [
-    "!@#_currentPos<?php else: ?>!@#_anchor"
+    "<?php else: ?>!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
   "indent_relative": "true", 
+  "icon": "koicon://ko-svg/chrome/icomoon/skin/code.svg", 
   "type": "snippet", 
   "treat_as_ejs": "false", 
   "auto_abbreviation": "false"
