@@ -6,9 +6,9 @@
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
-  "icon": "koicon://ko-svg/chrome/icomoon/skin/code.svg", 
-  "type": "snippet", 
+  "auto_abbreviation": "false", 
   "treat_as_ejs": "false", 
-  "auto_abbreviation": "false"
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "koicon://ko-svg/chrome/icomoon/skin/code.svg"
 }
