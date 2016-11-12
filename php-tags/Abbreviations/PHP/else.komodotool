@@ -2,7 +2,9 @@
   "keyboard_shortcut": "", 
   "name": "else", 
   "value": [
-    "<?php else: ?>!@#_currentPos!@#_anchor"
+    " else {", 
+    "\t!@#_currentPos!@#_anchor", 
+    "}"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

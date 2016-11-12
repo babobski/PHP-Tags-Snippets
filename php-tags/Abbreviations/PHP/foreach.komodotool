@@ -1,10 +1,12 @@
 {
   "keyboard_shortcut": "", 
-  "name": "else", 
+  "name": "foreach", 
   "value": [
-    "<?php else: ?>!@#_currentPos!@#_anchor"
+    "foreach ($[[%tabstop:array]] as [[%tabstop:$item]]) {", 
+    "\t[[%tabstop:]]", 
+    "}!@#_currentPos!@#_anchor"
   ], 
-  "set_selection": "true", 
+  "set_selection": "false", 
   "version": "1.0.12", 
   "indent_relative": "true", 
   "icon": "koicon://ko-svg/chrome/icomoon/skin/code.svg", 

@@ -1,10 +1,14 @@
 {
   "keyboard_shortcut": "", 
-  "name": "else", 
+  "name": "ifelse", 
   "value": [
-    "<?php else: ?>!@#_currentPos!@#_anchor"
+    "if ([[%tabstop:]]) {", 
+    "\t[[%tabstop:]]", 
+    "} else {", 
+    "\t[[%tabstop:]]", 
+    "}!@#_currentPos!@#_anchor"
   ], 
-  "set_selection": "true", 
+  "set_selection": "false", 
   "version": "1.0.12", 
   "indent_relative": "true", 
   "icon": "koicon://ko-svg/chrome/icomoon/skin/code.svg", 
